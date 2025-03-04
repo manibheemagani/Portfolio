@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <h1>Manikanta Bheemagani</h1>
+      <p>Frontend Developer | Tech Enthusiast</p>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="dark-mode-toggle">Dark Mode</button>
+    </div>
+  </header>
+
+  <!-- About Me Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="profile2.jpg" alt="Profile Picture" class="profile-img">
+        <div class="about-text">
+          <p>Hi, I'm Manikanta Bheemagani, a passionate full-stack developer with expertise in building modern web applications. I love solving complex problems and creating user-friendly interfaces.</p>
+          <p>When I'm not coding, I enjoy hiking, reading, and exploring new technologies.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">
+          <i class="fab fa-html5"></i>
+          <h3>HTML</h3>
+          <p>Proficient in creating semantic and accessible web pages.</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-css3-alt"></i>
+          <h3>CSS</h3>
+          <p>Experienced in styling, animations, and responsive design.</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-js"></i>
+          <h3>JavaScript</h3>
+          <p>Skilled in building interactive and dynamic web applications.</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-react"></i>
+          <h3>Java</h3>
+          <p>Skilled in Java programming.</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-node"></i>
+          <h3>C</h3>
+          <p>Skilledin C language concepts.</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-git"></i>
+          <h3>Git</h3>
+          <p>Knowledgeable in version control and collaboration workflows.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project">
+          <h3>Ensemble-Model-Classifier-in-Hybrid-CNN-to-Predict-Diabetic-Foot-Ulcers</h3>
+          <p>developed a hybrid Convolutional Neural Network (CNN) combined with an ensemble classifier to enhance predictive performance.</p>
+          <a href="https://github.com/manibheemagani/Ensemble-Model-Classifier-in-Hybrid-CNN-to-Predict-Diabetic-Foot-Ulcers" class="btn">View Project</a>
+        </div>
+        <div class="project">
+          <h3>Rock Paper Scissors</h3>
+          <p>Rock paper scissors game using C</p>
+          <a href="https://github.com/manibheemagani/Rock-paper-Scissors-game" class="btn">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <div class="contact-info">
+        <p>Email: bheemaganimani@gmail.com</p>
+        <div class="social-links">
+          <a href="https://github.com/manibheemagani" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/mani-bheemagani-692247259" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Manikanta Bheemagani. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Dark Mode Toggle Script -->
+  <script>
+    const darkModeToggle = document.getElementById('dark-mode-toggle');
+    const body = document.body;
+
+    darkModeToggle.addEventListener('click', () => {
+      body.classList.toggle('dark-mode');
+    });
+  </script>
+</body>
+</html>
